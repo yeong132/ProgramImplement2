@@ -6,6 +6,7 @@ using namespace std;
 class Animal {
 public:
 	virtual void makeSound() = 0;
+	virtual ~Animal() {};
 };
 
 class Dog : public Animal {
